@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Weather API</title>
+</head>
+<body>
+
+<header>
+	<h1>Weather Forecast</h1>
+	<h3>Enter city name</h3>
+</header>
+
+<div id="city-input">
+	<form id="city">
+		<input type="text" name="city" id="cityName">
+	</form>
+</div>
+
+<div id="city-info" class="show">
+	<div id="card">
+		<div id="top-part">
+			<div id="temperature">
+				<span id="temp"></span>
+				<span>&deg;c</span>
+			</div>
+
+			<div id="city-name">
+				
+			</div>
+		</div>
+
+		<div id="bottom-part">
+			<div id="weather">
+				
+			</div>
+
+			<div id="bottom-part-2">
+				<div class="detail">
+					<span>Wind</span>
+					<img src="icon/wind.png">
+					<span id="wind"></span>
+					
+				</div>
+
+				<div class="detail">
+					<span>Humidity</span>
+					<img src="icon/humidity.png">
+					<span id="humidity"></span>
+					
+				</div>
+
+				<div class="detail">
+					<span>Pressure</span>
+					<img src="icon/pressure.png">
+					<span id="pressure"></span>
+
+					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript" src="forcast.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
